@@ -22,4 +22,5 @@
     <string name="textView_hogar">Hogar: $</string>
     <string name="valor_hogar">Valor Hogar</string>
     <string name="textView_mandoca">mandoca</string>
+    <string name="cancelar">Cancelar</string>
 </resources>

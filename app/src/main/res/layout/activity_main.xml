@@ -227,19 +227,42 @@
 
     </LinearLayout>
 
-    <Button
-        android:id="@+id/button_Agregar"
-        android:layout_width="121dp"
+    <!--Alinear botones: agregar y cancelar -->
+    <LinearLayout
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="153dp"
-        android:layout_marginEnd="153dp"
-        android:layout_marginBottom="40dp"
-        android:text="@string/agregar"
-        app:layout_constraintBottom_toTopOf="@+id/nav_view"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="0dp"
+        android:orientation="horizontal"
+        app:layout_constraintTop_toBottomOf="@id/category_layout"
+        app:layout_constraintBottom_toTopOf="@id/nav_view"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:rippleColor="#9C27B0" />
+        android:gravity="center">
 
+        <!-- Botón: Agregar -->
+        <Button
+            android:id="@+id/button_Agregar"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/agregar"
+            android:textSize="12sp"
+            android:padding="8dp"
+            android:layout_marginEnd="8dp"
+            app:rippleColor="#9C27B0" />
+
+        <!-- Botón: Cancelar -->
+        <Button
+            android:id="@+id/button_cancelar"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="8dp"
+            android:text="Cancelar"
+            android:textSize="12sp"
+            app:rippleColor="#F44336" />
+
+    </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
