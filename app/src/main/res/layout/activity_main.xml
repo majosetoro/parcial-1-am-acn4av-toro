@@ -32,10 +32,6 @@
         app:navGraph="@navigation/mobile_navigation" />
 
     <!--Título Mandoca-->
-
-    <!--Título Mandoca-->
-
-
     <TextView
         android:id="@+id/textView_Mandoca"
         android:layout_width="wrap_content"
@@ -51,6 +47,7 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0" />
 
+    <!--Total-->
     <TextView
         android:id="@+id/tv_total"
 
@@ -75,7 +72,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent">
 
-        <!-- Alquiler -->
+        <!-- Categorías: Alquiler -->
         <LinearLayout
             android:orientation="horizontal"
             android:layout_width="match_parent"
@@ -91,7 +88,7 @@
 
             <EditText
                 android:id="@+id/edit_valor_alquiler"
-                android:layout_width="182dp"
+                android:layout_width="20dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:hint="@string/valor_alquiler"
@@ -99,7 +96,7 @@
 
     </LinearLayout>
 
-        <!-- Expensas -->
+        <!-- Categorías: Expensas -->
         <LinearLayout
             android:orientation="horizontal"
             android:layout_width="match_parent"
@@ -115,7 +112,7 @@
 
             <EditText
                 android:id="@+id/edit_valor_expensas"
-                android:layout_width="182dp"
+                android:layout_width="20dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:hint="@string/valor_expensas"
@@ -123,7 +120,7 @@
 
         </LinearLayout>
 
-        <!-- Servicios -->
+        <!-- Categorías: Servicios -->
         <LinearLayout
             android:orientation="horizontal"
             android:layout_width="match_parent"
@@ -139,7 +136,7 @@
 
             <EditText
                 android:id="@+id/edit_valor_servicios"
-                android:layout_width="182dp"
+                android:layout_width="20dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:hint="@string/valor_servicios"
@@ -147,7 +144,7 @@
 
         </LinearLayout>
 
-        <!-- Supermercado -->
+        <!-- Categorías: Supermercado -->
         <LinearLayout
             android:orientation="horizontal"
             android:layout_width="match_parent"
@@ -163,7 +160,7 @@
 
             <EditText
                 android:id="@+id/edit_valor_Supermercado"
-                android:layout_width="182dp"
+                android:layout_width="20dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:hint="@string/valor_supermercado"
@@ -171,7 +168,7 @@
 
         </LinearLayout>
 
-        <!-- Hogar -->
+        <!-- Categorías: Hogar -->
         <LinearLayout
             android:orientation="horizontal"
             android:layout_width="match_parent"
@@ -187,7 +184,7 @@
 
             <EditText
                 android:id="@+id/edit_valor_hogar"
-                android:layout_width="182dp"
+                android:layout_width="20dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:hint="@string/valor_hogar"
