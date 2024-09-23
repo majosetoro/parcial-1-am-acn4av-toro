@@ -61,6 +61,11 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
+    <!-- Se aplica ScrollView -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
     <!-- Categorías -->
     <LinearLayout
         android:id="@+id/category_layout"
@@ -106,6 +111,7 @@
         </LinearLayout>
 
         <!-- Categorías: Expensas -->
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -225,9 +231,14 @@
 
         </LinearLayout>
 
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />
+
     </LinearLayout>
 
-    <!--Alinear botones: agregar y cancelar -->
+    <!--Alinear botones: Agregar y Cancelar -->
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -261,7 +272,7 @@
             android:padding="8dp"
             android:text="Cancelar"
             android:textSize="12sp"
-            app:rippleColor="#F44336" />
+            app:rippleColor="#E52B67" />
 
     </LinearLayout>
 
