@@ -79,6 +79,13 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="8dp">
 
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/ic_alquiler"
+                android:layout_marginEnd="8dp" />
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -102,6 +109,12 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="8dp">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/ic_expensas"
+                android:layout_marginEnd="8dp" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -127,6 +140,12 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="8dp">
 
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/ic_servicios"
+                android:layout_marginEnd="8dp" />
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -151,6 +170,12 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="8dp">
 
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/ic_supermercado"
+                android:layout_marginEnd="8dp" />
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -174,6 +199,12 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="8dp">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/ic_hogar"
+                android:layout_marginEnd="5dp" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -206,8 +237,6 @@
             app:layout_constraintHorizontal_bias="1.0"
             app:layout_constraintStart_toStartOf="parent"
             app:rippleColor="#9C27B0" />
-
-
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
