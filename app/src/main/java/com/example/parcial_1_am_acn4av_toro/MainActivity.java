@@ -20,6 +20,7 @@ import com.example.parcial_1_am_acn4av_toro.databinding.ActivityMainBinding;
 public class MainActivity extends AppCompatActivity {
 
     private ActivityMainBinding binding;
+
     private TextView edit_valor_alquiler;
     private TextView edit_valor_expensas;
     private TextView edit_valor_servicios;
