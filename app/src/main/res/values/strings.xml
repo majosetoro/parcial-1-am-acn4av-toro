@@ -28,4 +28,8 @@
     <string name="menu_ingresos">Ingresos</string>
     <string name="menu_balance">Balance</string>
     <string name="menu_presupuesto">Presupuesto</string>
+    <string name="presupuesto">Presupuesto</string>
+    <string name="balance">Balance</string>
+    <string name="ingresos">Ingresos</string>
+    <string name="gastos">Gastos</string>
 </resources>
