@@ -91,8 +91,6 @@ public class MainActivity extends AppCompatActivity {
         return alquiler + expensas + servicios + supermercado + hogar;
     }
 
-
-
     private double getValor(EditText editText) {
         String texto = editText.getText().toString();
         if (texto.isEmpty()) {
