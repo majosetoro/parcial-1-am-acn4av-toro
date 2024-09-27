@@ -20,7 +20,6 @@
     <string name="textView_hogar">Otros: $</string>
     <string name="valor_otros">valor otros gastos</string>
     <string name="textView_mandoca">mandoca</string>
-    <string name="cancelar">Cancelar</string>
 
     <string name="menu_gastos">Gastos</string>
     <string name="menu_ingresos">Ingresos</string>
@@ -31,4 +30,5 @@
     <string name="ingresos">Ingresos</string>
     <string name="gastos">Gastos</string>
     <string name="gestiona_tus_gastos_aca">Gestioná tus gastos acá</string>
+    <string name="cancelar">Cancelar</string>
 </resources>
