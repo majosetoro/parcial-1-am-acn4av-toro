@@ -55,7 +55,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="bottom"
         android:layout_marginStart="4dp"
-        android:layout_marginTop="9dp"
+        android:layout_marginTop="12dp"
         android:layout_marginEnd="4dp"
         android:gravity="center"
         android:orientation="horizontal"
@@ -86,11 +86,11 @@
             android:layout_height="wrap_content"
             android:layout_marginEnd="8dp"
             android:layout_weight="1"
+            android:backgroundTint="@color/gray_bottom_topnavmenu"
             android:padding="5dp"
             android:text="@string/gastos"
             android:textSize="11sp"
-            app:rippleColor="#9C27B0"
-            android:backgroundTint="@color/gray_bottom_topnavmenu" />
+            app:rippleColor="#9C27B0" />
 
         <!-- Navbar-Sección 2: Ingresos -->
         <!--LinearLayout
@@ -114,11 +114,11 @@
             android:layout_height="wrap_content"
             android:layout_marginEnd="8dp"
             android:layout_weight="1"
+            android:backgroundTint="@color/gray_bottom_topnavmenu"
             android:padding="5dp"
             android:text="@string/ingresos"
             android:textSize="11sp"
-            app:rippleColor="#9C27B0"
-            android:backgroundTint="@color/gray_bottom_topnavmenu" />
+            app:rippleColor="#9C27B0" />
 
         <!-- Navbar-Sección 3: Balance -->
         <!--LinearLayout
@@ -142,11 +142,11 @@
             android:layout_height="wrap_content"
             android:layout_marginEnd="8dp"
             android:layout_weight="1"
+            android:backgroundTint="@color/gray_bottom_topnavmenu"
             android:padding="5dp"
             android:text="@string/balance"
             android:textSize="11sp"
-            app:rippleColor="#9C27B0"
-            android:backgroundTint="@color/gray_bottom_topnavmenu" />
+            app:rippleColor="#9C27B0" />
 
         <!-- Navbar-Sección 4: Presupuesto -->
         <!--LinearLayout-
@@ -170,11 +170,11 @@
             android:layout_height="wrap_content"
             android:layout_marginEnd="5dp"
             android:layout_weight="1"
+            android:backgroundTint="@color/gray_bottom_topnavmenu"
             android:padding="5dp"
             android:text="@string/presupuesto"
             android:textSize="11sp"
-            app:rippleColor="#9C27B0"
-            android:backgroundTint="@color/gray_bottom_topnavmenu" />
+            app:rippleColor="#9C27B0" />
 
 
     </LinearLayout>
@@ -194,12 +194,12 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <!-- Se aplica ScrollView -->
-
     <ScrollView
         android:id="@+id/scrollView2"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_marginTop="56dp"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
     </ScrollView>
@@ -208,21 +208,27 @@
 
     <TextView
         android:id="@+id/textView_gestiona_tus_gastos_aca"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="5dp"
         android:text="@string/gestiona_tus_gastos_aca"
+        android:textSize="20sp"
         app:layout_constraintBottom_toTopOf="@+id/category_layout"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_total" />
 
     <LinearLayout
         android:id="@+id/category_layout"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="310dp"
+        android:layout_height="265dp"
         android:layout_margin="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
         android:orientation="vertical"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/scrollView2"
+        app:layout_constraintStart_toStartOf="@+id/scrollView2"
         app:layout_constraintTop_toBottomOf="@id/tv_total">
 
         <!-- Categorías: Alquiler -->
@@ -259,7 +265,7 @@
         <!-- Categorías: Expensas -->
 
         <LinearLayout
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="8dp"
             android:orientation="horizontal">
@@ -279,7 +285,7 @@
 
             <EditText
                 android:id="@+id/edit_valor_expensas"
-                android:layout_width="20dp"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:hint="@string/valor_expensas"
@@ -289,7 +295,7 @@
 
         <!-- Categorías: Servicios -->
         <LinearLayout
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="8dp"
             android:orientation="horizontal">
@@ -309,7 +315,7 @@
 
             <EditText
                 android:id="@+id/edit_valor_servicios"
-                android:layout_width="20dp"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:hint="@string/valor_servicios"
@@ -319,7 +325,7 @@
 
         <!-- Categorías: Supermercado -->
         <LinearLayout
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="8dp"
             android:orientation="horizontal">
@@ -339,7 +345,7 @@
 
             <EditText
                 android:id="@+id/edit_valor_Supermercado"
-                android:layout_width="20dp"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:hint="@string/valor_supermercado"
@@ -347,9 +353,9 @@
 
         </LinearLayout>
 
-        <!-- Categorías: Hogar -->
+        <!-- Categorías: Otros -->
         <LinearLayout
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="8dp"
             android:orientation="horizontal">
@@ -369,10 +375,10 @@
 
             <EditText
                 android:id="@+id/edit_valor_hogar"
-                android:layout_width="20dp"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:hint="@string/valor_hogar"
+                android:hint="@string/valor_otros"
                 android:inputType="numberDecimal" />
 
         </LinearLayout>
@@ -402,7 +408,8 @@
             android:padding="8dp"
             android:text="@string/agregar"
             android:textSize="12sp"
-            app:rippleColor="#9C27B0" />
+            app:rippleColor="#9C27B0"
+            android:backgroundTint="#C38CD9"/>
 
         <!-- Botón: Cancelar -->
         <Button
@@ -413,7 +420,8 @@
             android:padding="8dp"
             android:text="Cancelar"
             android:textSize="12sp"
-            app:rippleColor="#E52B67" />
+            app:rippleColor="#E62C2C"
+            android:backgroundTint="#E64F7E"/>
 
     </LinearLayout>
 
