@@ -179,7 +179,22 @@
 
     </LinearLayout>
 
+    <!--Gráfico pastel-->
+
+
     <!--Total-->
+
+    <!-- Se aplica ScrollView -->
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        app:layout_constraintBottom_toTopOf="@+id/tv_total"
+        app:layout_constraintTop_toBottomOf="@+id/textView_Mandoca"
+        app:srcCompat="@drawable/ic_grafico" />
+
     <TextView
         android:id="@+id/tv_total"
 
@@ -193,7 +208,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
-    <!-- Se aplica ScrollView -->
     <ScrollView
         android:id="@+id/scrollView2"
         android:layout_width="match_parent"
@@ -221,15 +235,16 @@
 
     <LinearLayout
         android:id="@+id/category_layout"
-        android:layout_width="310dp"
+        android:layout_width="275dp"
         android:layout_height="265dp"
         android:layout_margin="16dp"
         android:layout_marginStart="16dp"
+        android:layout_marginTop="20dp"
         android:layout_marginEnd="16dp"
         android:orientation="vertical"
         app:layout_constraintEnd_toEndOf="@+id/scrollView2"
         app:layout_constraintStart_toStartOf="@+id/scrollView2"
-        app:layout_constraintTop_toBottomOf="@id/tv_total">
+        app:layout_constraintTop_toBottomOf="@+id/textView_gestiona_tus_gastos_aca">
 
         <!-- Categorías: Alquiler -->
         <LinearLayout
