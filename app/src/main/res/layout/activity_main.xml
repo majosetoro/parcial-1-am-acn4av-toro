@@ -180,12 +180,6 @@
     </LinearLayout>
 
     <!--Gráfico pastel-->
-
-
-    <!--Total-->
-
-    <!-- Se aplica ScrollView -->
-
     <ImageView
         android:id="@+id/imageView3"
         android:layout_width="match_parent"
@@ -195,6 +189,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textView_Mandoca"
         app:srcCompat="@drawable/ic_grafico" />
 
+    <!--Total-->
     <TextView
         android:id="@+id/tv_total"
 
@@ -207,6 +202,8 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
+
+    <!-- Se aplica ScrollView -->
 
     <ScrollView
         android:id="@+id/scrollView2"

@@ -68,15 +68,18 @@ public class MainActivity extends AppCompatActivity {
 
         // Evento del botón 'Cancelar'
         button_cancelar.setOnClickListener(v -> {
-            // Se limpian todos los EditText
-            edit_valor_alquiler.setText("");
-            edit_valor_expensas.setText("");
-            edit_valor_servicios.setText("");
-            edit_valor_Supermercado.setText("");
-            edit_valor_hogar.setText("");
-
-            // Se reestablece el total a "$0.0"
+            TextView[] editTexts = {
+                    edit_valor_alquiler,
+                    edit_valor_expensas,
+                    edit_valor_servicios,
+                    edit_valor_Supermercado,
+                    edit_valor_hogar
+            };
+            for (TextView editText : editTexts) {
+                editText.setText("");
+            }
             tv_total.setText("Total: $0.0");
+
         });
     }
 
