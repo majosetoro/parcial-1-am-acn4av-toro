@@ -7,9 +7,9 @@
         android:title="Inicio" />
 
     <item
-        android:id="@+id/navigation_heart"
-        android:icon="@drawable/ic_heart"
-        android:title="Favoritos" />
+        android:id="@+id/navigation_push_pin"
+        android:icon="@drawable/ic_push_pin"
+        android:title="Checklist" />
 
     <item
         android:id="@+id/navigation_buscar"
