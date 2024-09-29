@@ -29,7 +29,7 @@
     <string name="balance">Balance</string>
     <string name="ingresos">Ingresos</string>
     <string name="gastos">Gastos</string>
-    <string name="gestiona_tus_gastos_aca">Gestioná tus gastos acá</string>
+    <string name="gestiona_tus_gastos_aca">Gestioná tus gastos acá: </string>
     <string name="cancelar">Cancelar</string>
     <string name="octubre">Octubre 2024</string>
     <string name="flecha_izquierda"><![CDATA[<]]></string>
