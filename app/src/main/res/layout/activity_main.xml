@@ -118,31 +118,77 @@
 
     </LinearLayout>
 
-    <!--Acá se seleccionan los meses, en este caso, se va a visualizar únicamente el mes de octubre-->
-    <TextView
-        android:id="@+id/textView_Octubre"
+    <!--Acá se seleccionan los meses, en este caso, se va a visualizar únicamente el mes de octubre 2024-->
+    <LinearLayout
+        android:id="@+id/month_layout"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Octubre"
-        android:textSize="20sp"
+        android:layout_marginStart="12dp"
+        android:gravity="center"
+        android:orientation="horizontal"
         app:layout_constraintBottom_toTopOf="@+id/imageView3"
-        app:layout_constraintEnd_toEndOf="@+id/top_nav_menu"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/top_nav_menu"
-        tools:ignore="MissingConstraints" />
+        app:layout_constraintTop_toBottomOf="@+id/top_nav_menu">
+
+        <!-- Botón: flecha_izquierda -->
+        <Button
+            android:id="@+id/button_flecha_izquierda"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="@color/gray_bottom_topnavmenu"
+            android:padding="8dp"
+            android:text="@string/flecha_izquierda"
+            android:textSize="15sp"
+            app:rippleColor="#e0e2db"
+            android:layout_marginHorizontal="10dp"/>
+
+        <!--Texto y año: Octubre 2024 -->
+        <TextView
+            android:id="@+id/textView_Octubre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/octubre"
+            android:textSize="18sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/top_nav_menu" />
+
+        <!-- Botón: flecha_derecha -->
+        <Button
+            android:id="@+id/button_flecha_derecha"
+            android:layout_width="8dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="@color/gray_bottom_topnavmenu"
+            android:padding="8dp"
+            android:text="@string/flecha_derecha"
+            android:textSize="15sp"
+            app:rippleColor="#e0e2db"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="279dp"
+            tools:layout_editor_absoluteY="129dp"
+            android:layout_marginHorizontal="10dp"/>
+
+    </LinearLayout>
 
     <!--Gráfico pastel-->
     <ImageView
         android:id="@+id/imageView3"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="60dp"
+        android:layout_width="406dp"
+        android:layout_height="202dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginEnd="6dp"
+        android:layout_marginBottom="6dp"
         app:layout_constraintBottom_toTopOf="@+id/tv_total"
-        app:layout_constraintTop_toBottomOf="@+id/textView_Mandoca"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/month_layout"
         app:srcCompat="@drawable/ic_grafico" />
 
     <!--Total-->
-
     <TextView
         android:id="@+id/tv_total"
 
@@ -170,7 +216,6 @@
     </ScrollView>
 
     <!-- Categorías -->
-
     <TextView
         android:id="@+id/textView_gestiona_tus_gastos_aca"
         android:layout_width="wrap_content"
