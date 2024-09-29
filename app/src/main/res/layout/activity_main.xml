@@ -34,8 +34,6 @@
         app:navGraph="@navigation/mobile_navigation" />
 
     <!--Título Mandoca-->
-
-    <!--Navbar -->
     <TextView
         android:id="@+id/textView_Mandoca"
         android:layout_width="wrap_content"
@@ -49,6 +47,7 @@
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteY="49dp" />
 
+    <!--Navbar -->
     <LinearLayout
         android:id="@+id/top_nav_menu"
         android:layout_width="match_parent"
@@ -65,21 +64,6 @@
         tools:ignore="MissingConstraints">
 
         <!-- Navbar-Sección 1: Gastos -->
-
-        <!-- <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:gravity="center"
-        android:orientation="vertical"
-        android:padding="8dp">
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/menu_gastos"
-            android:textSize="14sp" /-->
-
         <Button
             android:id="@+id/button_gastos"
             android:layout_width="0dp"
@@ -93,21 +77,6 @@
             app:rippleColor="#9C27B0" />
 
         <!-- Navbar-Sección 2: Ingresos -->
-        <!--LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:gravity="center"
-            android:orientation="vertical"
-            android:padding="8dp">
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/menu_ingresos"
-                android:textSize="14sp" />
-        </LinearLayout-->
-
         <Button
             android:id="@+id/button_ingresos"
             android:layout_width="0dp"
@@ -121,21 +90,6 @@
             app:rippleColor="#9C27B0" />
 
         <!-- Navbar-Sección 3: Balance -->
-        <!--LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:gravity="center"
-            android:orientation="vertical"
-            android:padding="8dp">
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/menu_balance"
-                android:textSize="14sp" />
-        </LinearLayout-->
-
         <Button
             android:id="@+id/button_balance"
             android:layout_width="0dp"
@@ -149,21 +103,6 @@
             app:rippleColor="#9C27B0" />
 
         <!-- Navbar-Sección 4: Presupuesto -->
-        <!--LinearLayout-
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:gravity="center"
-            android:orientation="vertical"
-            android:padding="8dp">
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/menu_presupuesto"
-                android:textSize="14sp" />
-        </LinearLayout-->
-
         <Button
             android:id="@+id/button_presupuesto"
             android:layout_width="0dp"
@@ -179,17 +118,31 @@
 
     </LinearLayout>
 
+    <!--Acá se seleccionan los meses, en este caso, se va a visualizar únicamente el mes de octubre-->
+    <TextView
+        android:id="@+id/textView_Octubre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Octubre"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView3"
+        app:layout_constraintEnd_toEndOf="@+id/top_nav_menu"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/top_nav_menu"
+        tools:ignore="MissingConstraints" />
+
     <!--Gráfico pastel-->
     <ImageView
         android:id="@+id/imageView3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="40dp"
+        android:layout_marginTop="60dp"
         app:layout_constraintBottom_toTopOf="@+id/tv_total"
         app:layout_constraintTop_toBottomOf="@+id/textView_Mandoca"
         app:srcCompat="@drawable/ic_grafico" />
 
     <!--Total-->
+
     <TextView
         android:id="@+id/tv_total"
 
@@ -204,14 +157,15 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <!-- Se aplica ScrollView -->
-
     <ScrollView
         android:id="@+id/scrollView2"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="0dp"
         android:layout_marginTop="56dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/textView_Mandoca"
+        app:layout_constraintStart_toStartOf="@+id/nav_host_fragment_activity_main">
 
     </ScrollView>
 
