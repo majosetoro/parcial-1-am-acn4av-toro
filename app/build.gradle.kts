@@ -3,11 +3,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.parcial_1_am_acn4av_toro"
+    namespace = "com.example.parcial_2_am_acn4av_toro"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.example.parcial_1_am_acn4av_toro"
+        applicationId = "com.example.parcial_2_am_acn4av_toro"
         minSdk = 24
         targetSdk = 34
         versionCode = 1
