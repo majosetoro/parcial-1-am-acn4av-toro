@@ -1,4 +1,4 @@
-package com.example.parcial_1_am_acn4av_toro.ui.home;
+package com.example.parcial_2_am_acn4av_toro.ui.home;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -10,7 +10,7 @@ import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 import androidx.lifecycle.ViewModelProvider;
 
-import com.example.parcial_1_am_acn4av_toro.databinding.FragmentHomeBinding;
+import com.example.parcial_2_am_acn4av_toro.databinding.FragmentHomeBinding;
 
 public class HomeFragment extends Fragment {
 

@@ -7,17 +7,17 @@
 
     <fragment
         android:id="@+id/navigation_home"
-        android:name="com.example.parcial_1_am_acn4av_toro.ui.home.HomeFragment"
+        android:name="com.example.parcial_2_am_acn4av_toro.ui.home.HomeFragment"
         android:label="@string/title_home"
         tools:layout="@layout/fragment_home" />
     <fragment
         android:id="@+id/dashboardFragment"
-        android:name="com.example.parcial_1_am_acn4av_toro.ui.dashboard.DashboardFragment"
+        android:name="com.example.parcial_2_am_acn4av_toro.ui.dashboard.DashboardFragment"
         android:label="fragment_dashboard"
         tools:layout="@layout/fragment_dashboard" />
     <fragment
         android:id="@+id/notificationsFragment"
-        android:name="com.example.parcial_1_am_acn4av_toro.ui.notifications.NotificationsFragment"
+        android:name="com.example.parcial_2_am_acn4av_toro.ui.notifications.NotificationsFragment"
         android:label="fragment_notifications"
         tools:layout="@layout/fragment_notifications" />
 
