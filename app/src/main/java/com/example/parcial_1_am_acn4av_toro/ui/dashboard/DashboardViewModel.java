@@ -1,4 +1,4 @@
-package com.example.parcial_2_am_acn4av_toro.ui.dashboard;
+package com.example.parcial_1_am_acn4av_toro.ui.dashboard;
 
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;

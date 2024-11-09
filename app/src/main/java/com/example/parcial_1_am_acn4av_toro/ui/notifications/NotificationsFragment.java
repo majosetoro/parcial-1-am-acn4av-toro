@@ -1,4 +1,4 @@
-package com.example.parcial_2_am_acn4av_toro.ui.notifications;
+package com.example.parcial_1_am_acn4av_toro.ui.notifications;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -10,7 +10,7 @@ import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 import androidx.lifecycle.ViewModelProvider;
 
-import com.example.parcial_2_am_acn4av_toro.databinding.FragmentNotificationsBinding;
+import com.example.parcial_1_am_acn4av_toro.databinding.FragmentNotificationsBinding;
 
 public class NotificationsFragment extends Fragment {
 
