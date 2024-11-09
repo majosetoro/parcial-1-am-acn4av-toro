@@ -1,4 +1,4 @@
-package com.example.parcial_1_am_acn4av_toro;
+package com.example.parcial_2_am_acn4av_toro;
 
 import android.os.Bundle;
 import android.widget.Button;
@@ -14,7 +14,7 @@ import androidx.navigation.Navigation;
 import androidx.navigation.ui.AppBarConfiguration;
 import androidx.navigation.ui.NavigationUI;
 
-import com.example.parcial_1_am_acn4av_toro.databinding.ActivityMainBinding;
+import com.example.parcial_2_am_acn4av_toro.databinding.ActivityMainBinding;
 
 public class MainActivity extends AppCompatActivity {
 
