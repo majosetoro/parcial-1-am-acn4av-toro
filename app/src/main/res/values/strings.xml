@@ -37,4 +37,7 @@
     <string name="checklist">Checklist</string>
     <string name="inicio">Inicio</string>
     <string name="mi_perfil">Mi Perfil</string>
+    <string name="login_TextView">Login</string>
+    <string name="login_username">login_username</string>
+    <string name="login_password">login_password</string>
 </resources>
