@@ -33,17 +33,18 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
         mAuth = FirebaseAuth.getInstance();
 
         FirebaseUser currentUser = mAuth.getCurrentUser();
         if(currentUser != null) {
+            setContentView(R.layout.activity_main);
             //download();
             currentUser.reload();
         } else {
             Intent intent = new Intent(this, LoginActivity.class);
             startActivity(intent);
         }
-        super.onCreate(savedInstanceState);
         setContentView((R.layout.activity_main));
 
         binding = ActivityMainBinding.inflate(getLayoutInflater());

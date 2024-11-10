@@ -1,5 +1,6 @@
 package com.example.parcial_2_am_acn4av_toro;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
@@ -42,8 +43,12 @@ public class LoginActivity extends AppCompatActivity {
                 .addOnCompleteListener(new OnCompleteListener<AuthResult>() {
                     @Override
                     public void onComplete(@NonNull Task<AuthResult> task) {
-                        if(task.isComplete()) {
-                            Log.i("firebase-log", mAuth.getCurrentUser().getEmail());
+                        if(task.isSuccessful()) {
+                            Intent intent = new Intent(getApplicationContext(), MainActivity.class);
+                            startActivity(intent);
+
+                        } else {
+                            Log.i("firebase-log", task.getException().toString());
                         }
                     }
                 });
