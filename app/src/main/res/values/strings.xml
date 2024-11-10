@@ -53,4 +53,6 @@
     <string name="sinRegistro_login">¿No te has registrado? Regístrate aquí</string>
     <string name="email_login">Email</string>
     <string name="description_scrollView">Contenedor desplazable.</string>
+    <string name="textView_finance_app_login">finance app</string>
+    <string name="textView_mandoca_login">mandoca</string>
 </resources>
