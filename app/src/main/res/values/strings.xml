@@ -53,6 +53,16 @@
     <string name="sinRegistro_login">¿No te has registrado? Regístrate aquí</string>
     <string name="email_login">Email</string>
     <string name="description_scrollView">Contenedor desplazable.</string>
-    <string name="textView_finance_app_login">finance app</string>
-    <string name="textView_mandoca_login">mandoca</string>
+    <string name="textView_mandoca_login_signup">mandoca</string>
+    <string name="textView_finance_app">Finance app</string>
+    <string name="logout_btn_profile">Log out</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="textView_password_profile">Password</string>
+    <string name="textView2_password_profile">password</string>
+    <string name="textView_email_profile">Email</string>
+    <string name="textView2_email_profile">email</string>
+    <string name="textView_nombre_profile">Nombre</string>
+    <string name="textView2_nombre_profile">nombre</string>
+    <string name="title_nombre_profile">Nombre</string>
+    <string name="descargar_datos_profile">Descargar datos</string>
 </resources>
