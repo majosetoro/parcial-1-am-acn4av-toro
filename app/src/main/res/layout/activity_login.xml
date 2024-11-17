@@ -48,7 +48,7 @@
                 android:layout_height="50dp"
                 android:layout_marginTop="20dp"
                 android:drawablePadding="8dp"
-                android:hint="@string/password_login"
+                android:hint="@string/contrasenia_login"
                 android:inputType="textPassword"
                 android:padding="8dp"
                 android:textColor="@color/black" />
