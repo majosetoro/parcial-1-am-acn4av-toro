@@ -40,11 +40,4 @@
     <string name="login_TextView">Login</string>
     <string name="login_username">login_username</string>
     <string name="login_password">login_password</string>
-    <string name="sign_up">Sign Up</string>
-    <string name="nombre_y_apellido">Nombre y Apellido</string>
-    <string name="email">Email</string>
-    <string name="usuario">Usuario</string>
-    <string name="contrase_a">Contraseña</string>
-    <string name="reg_strate">Regístrate</string>
-    <string name="usuario_registrado">¿Ya tienes un usuario? Inicia sesión aquí</string>
 </resources>
