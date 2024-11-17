@@ -38,7 +38,7 @@
                 android:layout_height="50dp"
                 android:layout_marginTop="40dp"
                 android:drawablePadding="8dp"
-                android:hint="@string/nombre_y_apellido_signup"
+                android:hint="@string/nombre_y_apellido"
                 android:padding="8dp"
                 android:textColor="@color/black" />
 
@@ -48,7 +48,19 @@
                 android:layout_height="50dp"
                 android:layout_marginTop="20dp"
                 android:drawablePadding="8dp"
-                android:hint="@string/email_signup"
+                android:hint="@string/email"
+                android:padding="8dp"
+                android:textColor="@color/black" />
+
+
+            <EditText
+                android:id="@+id/signup_username"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="20dp"
+
+                android:drawablePadding="8dp"
+                android:hint="@string/usuario"
                 android:padding="8dp"
                 android:textColor="@color/black" />
 
@@ -57,7 +69,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:layout_marginTop="20dp"
-                android:hint="@string/password_signup"
+                android:hint="@string/contrase_a"
                 android:inputType="textPassword"
                 android:padding="8dp"
                 android:textColor="@color/black" />
@@ -68,7 +80,7 @@
                 android:layout_height="60dp"
                 android:layout_marginTop="30dp"
                 android:backgroundTint="@color/lavender"
-                android:text="@string/registrate_signup"
+                android:text="@string/reg_strate"
                 android:textSize="14sp"
                 app:cornerRadius="20dp" />
 
@@ -79,7 +91,7 @@
                 android:layout_gravity="center"
                 android:layout_marginTop="10dp"
                 android:padding="8dp"
-                android:text="@string/usuario_registrado_signup"
+                android:text="@string/usuario_registrado"
                 android:textColor="@color/lavender"
                 android:textSize="14sp" />
 
