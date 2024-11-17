@@ -1,4 +1,4 @@
-package com.example.parcial_2_am_acn4av_toro.ui.dashboard;
+package com.example.parcial_1_am_acn4av_toro.ui.dashboard;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -10,7 +10,7 @@ import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 import androidx.lifecycle.ViewModelProvider;
 
-import com.example.parcial_2_am_acn4av_toro.databinding.FragmentDashboardBinding;
+import com.example.parcial_1_am_acn4av_toro.databinding.FragmentDashboardBinding;
 
 public class DashboardFragment extends Fragment {
 

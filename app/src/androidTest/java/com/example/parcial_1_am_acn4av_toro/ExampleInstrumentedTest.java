@@ -1,4 +1,4 @@
-package com.example.parcial_2_am_acn4av_toro;
+package com.example.parcial_1_am_acn4av_toro;
 
 import android.content.Context;
 
