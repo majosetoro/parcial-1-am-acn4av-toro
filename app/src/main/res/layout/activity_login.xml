@@ -16,8 +16,6 @@
         android:text="@string/textView_mandoca_login"
         android:textAlignment="center"
         android:textSize="30sp"
-        android:textColor="@color/lavender"
-        android:textStyle="bold"
         tools:ignore="HardcodedText" />
 
     <TextView
@@ -26,8 +24,6 @@
         android:layout_height="wrap_content"
         android:text="@string/textView_finance_app_login"
         android:textAlignment="center"
-        android:textColor="@color/lavender"
-        android:textStyle="normal"
         android:textSize="20sp"/>
 
     <androidx.cardview.widget.CardView
