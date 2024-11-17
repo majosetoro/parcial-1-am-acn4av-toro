@@ -38,7 +38,6 @@ public class MainActivity extends AppCompatActivity {
 
         FirebaseUser currentUser = mAuth.getCurrentUser();
         if(currentUser != null) {
-            mAuth.signOut(); // Cerrar sesión.
             setContentView(R.layout.activity_main);
             //download();
             currentUser.reload();
