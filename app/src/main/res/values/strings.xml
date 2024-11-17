@@ -52,5 +52,4 @@
     <string name="iniciarSesion_login">Iniciar sesión</string>
     <string name="sinRegistro_login">¿No te has registrado? Regístrate aquí</string>
     <string name="email_login">Email</string>
-    <string name="description_scrollView">Contenedor desplazable.</string>
 </resources>
