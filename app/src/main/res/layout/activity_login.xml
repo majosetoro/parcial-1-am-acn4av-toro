@@ -33,12 +33,12 @@
                 android:textStyle="bold" />
 
             <EditText
-                android:id="@+id/login_email"
+                android:id="@+id/login_username"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:layout_marginTop="40dp"
                 android:drawablePadding="8dp"
-                android:hint="@string/email_login"
+                android:hint="Usuario"
                 android:padding="8dp"
                 android:textColor="@color/black" />
 
@@ -48,7 +48,7 @@
                 android:layout_height="50dp"
                 android:layout_marginTop="20dp"
                 android:drawablePadding="8dp"
-                android:hint="@string/contrasenia_login"
+                android:hint="Contraseña"
                 android:inputType="textPassword"
                 android:padding="8dp"
                 android:textColor="@color/black" />
@@ -59,10 +59,9 @@
                 android:layout_height="60dp"
                 android:layout_marginTop="30dp"
                 android:backgroundTint="@color/lavender"
-                android:text="@string/iniciarSesion_login"
+                android:text="Iniciar sesión"
                 android:textSize="14sp"
-                android:onClick="onClick"
-                app:cornerRadius="20dp"/>
+                app:cornerRadius="20dp" />
 
             <TextView
                 android:id="@+id/signupRedirectText"
@@ -71,7 +70,7 @@
                 android:layout_gravity="center"
                 android:layout_marginTop="10dp"
                 android:padding="8dp"
-                android:text="@string/sinRegistro_login"
+                android:text="¿No te has registrado? Regístrate aquí"
                 android:textColor="@color/lavender"
                 android:textSize="14sp" />
 
